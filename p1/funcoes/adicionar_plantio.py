@@ -1,7 +1,9 @@
 from p1.funcoes.calculos.calcular_area_circulo import calcular_area_circulo
 from p1.funcoes.calculos.calcular_area_retangulo import calcular_area_retangulo
 from p1.funcoes.calculos.calcular_insumos import calcular_insumos
+from p1.funcoes.calculos.formatar_numero import formatar_numero_br
 from p1.funcoes.database.database import banco_de_dados_culturas
+from p1.funcoes.database.salvar_database import salvar_database
 
 
 def adicionar_plantio():
@@ -18,7 +20,7 @@ def adicionar_plantio():
         print("\n")
         area = calcular_area_circulo(radio)
 
-        print(f"A área é: {area:.2f}")
+        print(f"A área é: {formatar_numero_br(area)} m²")
         print("\n")
         insumos = calcular_insumos(cultura, area)
         banco_de_dados_culturas.append({
@@ -26,6 +28,7 @@ def adicionar_plantio():
             "area": area,
             "insumos": insumos,
         })
+        salvar_database(banco_de_dados_culturas)
 
     elif tipo == "2":
         cultura = "Soja"
@@ -34,7 +37,7 @@ def adicionar_plantio():
         print("\n")
         area = calcular_area_retangulo(largura, comprimento)
 
-        print(f"A área é: {area:.2f}")
+        print(f"A área é: {formatar_numero_br(area)} m²")
         print("\n")
         insumos = calcular_insumos(cultura, area)
         banco_de_dados_culturas.append({
@@ -42,6 +45,7 @@ def adicionar_plantio():
             "area": area,
             "insumos": insumos,
         })
+        salvar_database(banco_de_dados_culturas)
     else:
         print("Opção inválida! Tente novamente. \n")
         return

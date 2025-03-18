@@ -1,6 +1,7 @@
 from p1.funcoes.calculos.calcular_area_circulo import calcular_area_circulo
 from p1.funcoes.calculos.calcular_area_retangulo import calcular_area_retangulo
 from p1.funcoes.calculos.calcular_insumos import calcular_insumos
+from p1.funcoes.database.salvar_database import salvar_database
 from p1.funcoes.database.database import banco_de_dados_culturas
 
 
@@ -45,5 +46,6 @@ def atualizar_cultura():
             "area": area,
             "insumos": insumos,
         }
+        salvar_database(banco_de_dados_culturas)
 
     print("\nInsumos salvo com sucesso! \n")
