@@ -5,7 +5,7 @@ from p1.funcoes.listar_culturas import listar_culturas
 
 def menu():
     while True:
-        print("\nFarmTech Solutions - Agricultura Digital")
+        print("\n========== FarmTech Solutions - Agricultura Digital ==========")
         print("1. Adicionar Cultura")
         print("2. Listar Culturas e Insumos")
         print("3. Atualizar Cultura")
