@@ -1,0 +1,17 @@
+[
+  {
+    "cultura": "Café",
+    "area": 1234,
+    "insumos": {
+        "Nitrogênio (kg/ha)": 100,
+        "Fósforo (kg/ha)": 50,
+        "Potássio (kg/ha)": 60,
+        "Micronutrientes (Boro, Zinco) (kg/ha)": 5,
+        "Calcário (t/ha)": 3,
+        "Gesso Agrícola (t/ha)": 1.5,
+        "Inseticidas (mL/ha)": 1500,
+        "Fungicidas (mL/ha)": 2000,
+        "Herbicidas (L/ha)": 2
+    }
+  }
+]
