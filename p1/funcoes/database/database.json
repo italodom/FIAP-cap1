@@ -1,17 +1,107 @@
 [
   {
-    "cultura": "Café",
-    "area": 1234,
+    "cultura": "Caf\u00e9",
+    "area": 785398.1633974483,
     "insumos": {
-        "Nitrogênio (kg/ha)": 100,
-        "Fósforo (kg/ha)": 50,
-        "Potássio (kg/ha)": 60,
-        "Micronutrientes (Boro, Zinco) (kg/ha)": 5,
-        "Calcário (t/ha)": 3,
-        "Gesso Agrícola (t/ha)": 1.5,
-        "Inseticidas (mL/ha)": 1500,
-        "Fungicidas (mL/ha)": 2000,
-        "Herbicidas (L/ha)": 2
+      "Nitrog\u00eanio (kg/ha)": 7853.981633974483,
+      "F\u00f3sforo (kg/ha)": 3926.9908169872415,
+      "Pot\u00e1ssio (kg/ha)": 4712.38898038469,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 392.69908169872417,
+      "Calc\u00e1rio (t/ha)": 235.61944901923448,
+      "Gesso Agr\u00edcola (t/ha)": 117.80972450961724,
+      "Inseticidas (mL/ha)": 117809.72450961724,
+      "Fungicidas (mL/ha)": 157079.63267948967,
+      "Herbicidas (L/ha)": 157.07963267948966
+    }
+  },
+  {
+    "cultura": "Caf\u00e9",
+    "area": 22698.006922186254,
+    "insumos": {
+      "Nitrog\u00eanio (kg/ha)": 226.98006922186255,
+      "F\u00f3sforo (kg/ha)": 113.49003461093127,
+      "Pot\u00e1ssio (kg/ha)": 136.18804153311754,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 11.349003461093128,
+      "Calc\u00e1rio (t/ha)": 6.809402076655877,
+      "Gesso Agr\u00edcola (t/ha)": 3.4047010383279384,
+      "Inseticidas (mL/ha)": 3404.7010383279385,
+      "Fungicidas (mL/ha)": 4539.601384437251,
+      "Herbicidas (L/ha)": 4.539601384437251
+    }
+  },
+  {
+    "cultura": "Caf\u00e9",
+    "area": 6361.725123519331,
+    "insumos": {
+      "Nitrog\u00eanio (kg/ha)": 63.61725123519331,
+      "F\u00f3sforo (kg/ha)": 31.808625617596654,
+      "Pot\u00e1ssio (kg/ha)": 38.17035074111598,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 3.1808625617596653,
+      "Calc\u00e1rio (t/ha)": 1.9085175370557992,
+      "Gesso Agr\u00edcola (t/ha)": 0.9542587685278996,
+      "Inseticidas (mL/ha)": 954.2587685278996,
+      "Fungicidas (mL/ha)": 1272.345024703866,
+      "Herbicidas (L/ha)": 1.2723450247038661
+    }
+  },
+  {
+    "cultura": "Caf\u00e9",
+    "area": 6361.725123519331,
+    "insumos": {
+      "Nitrog\u00eanio (kg/ha)": 63.61725123519331,
+      "F\u00f3sforo (kg/ha)": 31.808625617596654,
+      "Pot\u00e1ssio (kg/ha)": 38.17035074111598,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 3.1808625617596653,
+      "Calc\u00e1rio (t/ha)": 1.9085175370557992,
+      "Gesso Agr\u00edcola (t/ha)": 0.9542587685278996,
+      "Inseticidas (mL/ha)": 954.2587685278996,
+      "Fungicidas (mL/ha)": 1272.345024703866,
+      "Herbicidas (L/ha)": 1.2723450247038661
+    }
+  },
+  {
+    "cultura": "Soja",
+    "area": 3330.0,
+    "insumos": {
+      "F\u00f3sforo (kg/ha)": 13.32,
+      "Pot\u00e1ssio (kg/ha)": 16.650000000000002,
+      "Micronutrientes e Enxofre (S) (kg/ha)": 3.33,
+      "Bradyrhizobium (com Mo e Co) (mL/ha)": 166.5,
+      "Calc\u00e1rio (t/ha)": 0.8325,
+      "Gesso Agr\u00edcola (t/ha)": 0.333,
+      "Fungicidas (mL/ha)": 832.5,
+      "Inseticidas (mL/ha)": 599.4,
+      "Aplica\u00e7\u00f5es Foliares de Micronutrientes (mL/ha)": 99.9
+    }
+  },
+  {
+    "cultura": "Soja",
+    "area": 2548.0,
+    "insumos": {
+      "F\u00f3sforo (kg/ha)": 10.192,
+      "Pot\u00e1ssio (kg/ha)": 12.740000000000002,
+      "Micronutrientes e Enxofre (S) (kg/ha)": 2.548,
+      "Bradyrhizobium (com Mo e Co) (mL/ha)": 127.40000000000002,
+      "Calc\u00e1rio (t/ha)": 0.637,
+      "Gesso Agr\u00edcola (t/ha)": 0.2548,
+      "Fungicidas (mL/ha)": 637.0000000000001,
+      "Inseticidas (mL/ha)": 458.64000000000004,
+      "Aplica\u00e7\u00f5es Foliares de Micronutrientes (mL/ha)": 76.44000000000001
+    }
+  },
+  {
+    "cultura": "Soja",
+    "area": 624.0,
+    "insumos": {
+      "F\u00f3sforo (kg/ha)": 2.496,
+      "Pot\u00e1ssio (kg/ha)": 3.1199999999999997,
+      "Micronutrientes e Enxofre (S) (kg/ha)": 0.624,
+      "Bradyrhizobium (com Mo e Co) (mL/ha)": 31.2,
+      "Calc\u00e1rio (t/ha)": 0.156,
+      "Gesso Agr\u00edcola (t/ha)": 0.0624,
+      "Fungicidas (mL/ha)": 156.0,
+      "Inseticidas (mL/ha)": 112.32,
+      "Aplica\u00e7\u00f5es Foliares de Micronutrientes (mL/ha)": 18.72
     }
   }
 ]
