@@ -2,7 +2,7 @@ library(jsonlite)
 library(dplyr)
 
 # Verificar se o arquivo JSON existe
-file_path <- "/Users/italodom/DESENVOLVIMENTO/ITALO/FIAP/p1/dados_estatisticos_em_r/database.json"
+file_path <- "/Users/italodom/DESENVOLVIMENTO/ITALO/FIAP/p1/funcoes/database/database.json"
 if (!file.exists(file_path)) {
   stop(paste("Arquivo JSON não encontrado no caminho:", file_path))
 }
@@ -20,28 +20,21 @@ df <- data.frame()
 # Loop para transformar o JSON em um data.frame
 for (item in dados) {
 
-  # Extrair dados de cultura, área e insumos
+  # Extrair dados de cultura e área
   tryCatch({
     cultura <- item$cultura
     area <- item$area
-    insumos <- item$insumos
 
     # Construir o data.frame acumulativo
     df <- bind_rows(df,
                     data.frame(
                       Cultura = cultura,
-                      Area = area,
-                      Insumo = names(insumos),
-                      Quantidade = as.numeric(insumos)
+                      Area = area
                     ))
   }, error = function(e) {
     cat("Erro ao processar item. Detalhes:", e$message, "\n")
   })
 }
-
-# Diagnóstico do data.frame montado
-cat("\nEstrutura do data.frame gerado:\n")
-str(df)
 
 # Verificar se o data.frame não está vazio
 if (nrow(df) == 0) {
