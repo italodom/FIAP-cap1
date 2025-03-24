@@ -45,6 +45,7 @@ def atualizar_cultura():
             "area": area,
             "insumos": insumos,
         }
+        salvar_database(banco_de_dados_culturas)
     elif cultura_selecionada["cultura"] == "Soja":
         cultura = "Soja"
         largura = float(input("Digite a largura (em metros): "))
