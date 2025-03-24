@@ -1,0 +1,47 @@
+[
+  {
+    "cultura": "Café",
+    "area": 20000,
+    "insumos": {
+      "Nitrogênio (kg/ha)": 7853.981633974483,
+      "Fósforo (kg/ha)": 3926.9908169872415,
+      "Potássio (kg/ha)": 4712.38898038469,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 392.69908169872417,
+      "Calcário (t/ha)": 235.61944901923448,
+      "Gesso Agrícola (t/ha)": 117.80972450961724,
+      "Inseticidas (mL/ha)": 117809.72450961724,
+      "Fungicidas (mL/ha)": 157079.63267948967,
+      "Herbicidas (L/ha)": 157.07963267948966
+    }
+  },
+    {
+    "cultura": "Café",
+    "area": 18000,
+    "insumos": {
+      "Nitrogênio (kg/ha)": 7853.981633974483,
+      "Fósforo (kg/ha)": 3926.9908169872415,
+      "Potássio (kg/ha)": 4712.38898038469,
+      "Micronutrientes (Boro, Zinco) (kg/ha)": 392.69908169872417,
+      "Calcário (t/ha)": 235.61944901923448,
+      "Gesso Agrícola (t/ha)": 117.80972450961724,
+      "Inseticidas (mL/ha)": 117809.72450961724,
+      "Fungicidas (mL/ha)": 157079.63267948967,
+      "Herbicidas (L/ha)": 157.07963267948966
+    }
+  },
+  {
+    "cultura": "Soja",
+    "area": 3330.0,
+    "insumos": {
+      "Fósforo (kg/ha)": 13.32,
+      "Potássio (kg/ha)": 16.650000000000002,
+      "Micronutrientes e Enxofre (S) (kg/ha)": 3.33,
+      "Bradyrhizobium (com Mo e Co) (mL/ha)": 166.5,
+      "Calcário (t/ha)": 0.8325,
+      "Gesso Agrícola (t/ha)": 0.333,
+      "Fungicidas (mL/ha)": 832.5,
+      "Inseticidas (mL/ha)": 599.4,
+      "Aplica\u00e7\u00f5es Foliares de Micronutrientes (mL/ha)": 99.9
+    }
+  }
+]
